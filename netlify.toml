@@ -5,3 +5,7 @@
 [build.environment]
   # Change this path with the path to your repository
   GO_IMPORT_PATH = "github.com/Tibz-Dankan/appcrons-netlify-functions-go"
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
